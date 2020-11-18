@@ -1,7 +1,13 @@
-<h1>Test chiffre</h1>
 
-<button (click)="launchTest()">Quel est le prochain chiffre ?</button>
+<div class="card text-center">
+    <div class="card-header">
+        <h1>Test Gest</h1>
+    </div>
+    <div class="card-body">
+        <a class="btn btn-primary" (click)="launchTest()">Quel est le prochain chiffre ?</a>
 
-<p> le chiffre est : {{ numberRandom }} </p>
+        <p class="card-text mt-3">le chiffre est : {{ numberRandom }}</p>
 
-<p>le résultat est : {{ textResult }}</p>
+        <h5 class="card-title mt-3">le résultat est : {{ textResult }}</h5>
+    </div>
+</div>
