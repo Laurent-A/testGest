@@ -1,6 +1,6 @@
 # TestGestForm
 
-Cette application est développpé en langage Angular 8
+Cette application est développpée en langage Angular 8
 
 - Assurez vous que NodeJs et Npm sont bien installés sur votre environnement.
 - Clonez le Repo sur votre poste
